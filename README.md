@@ -6,6 +6,7 @@
   - Media Queries
 2. Minimize parser blocking JS
   - Add async
+3. Resize Images
 
 Some useful tips to help you get started:
 
