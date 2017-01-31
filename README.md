@@ -4,9 +4,10 @@
 
 1. Minimize render blocking
   - Media Queries
+  - Inline CSS
 2. Minimize parser blocking JS
   - Add async
-3. Resize Images
+3. Resize Images using Grunt
 
 Some useful tips to help you get started:
 
