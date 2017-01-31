@@ -2,8 +2,10 @@
 
 ####Part 1: Optimize PageSpeed Insights score for index.html
 
-1. Minimize render blocking CSS
+1. Minimize render blocking
   - Media Queries
+2. Minimize parser blocking JS
+  - Add async
 
 Some useful tips to help you get started:
 
