@@ -13,5 +13,5 @@
 
 1. Lower number of sliding pizzas in sliding pizzas loop
 2. Optimize updatePositions()
-  -Remove document access from the loop
-  -calculate items.length out of loop
+  - Remove document access from the loop
+  - calculate items.length out of loop
