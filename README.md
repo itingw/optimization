@@ -11,7 +11,17 @@
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
-1. Lower number of sliding pizzas in sliding pizzas loop
-2. Optimize updatePositions()
-  - Remove document access from the loop
-  - calculate items.length out of loop
+1. Optimize updatePositions()
+  - Move variable out of loop to avoid accessing document
+  - Calculate items.length out of loop
+2. Optimize document.addEventListener('DOMContentLoaded', function()
+  - Optimize number of pizzas in loop by calculating the number of pizzas according to window height
+  - Move variable out of loop to avoid accessing document
+3. Optimize functions to resize Pizzas
+  - Replace querySelector by getElementById to increase speed
+  - Replace querySelectorAll by getElementsByClassName to increase speed
+  - Calculate document.querySelectorAll(".randomPizzaContainer").length out of loop
+4. Optimize window.performance.mark
+  - Move pizzasDiv outside of loop
+5. Enable hardware acceleration in CSS
+  - Add transform and backface-visibility
