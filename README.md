@@ -9,8 +9,7 @@
   - Add async
 3. Resize Images using Grunt
 4. Convert Images to png format
-5. Add Webfonts
-6. Move scripts to end of the body
+5. Move scripts to end of the body
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
