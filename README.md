@@ -8,7 +8,9 @@
 2. Minimize parser blocking JS
   - Add async
 3. Resize Images using Grunt
-4. Add Webfonts
+4. Convert Images to png format
+5. Add Webfonts
+6. Move scripts to end of the body
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
