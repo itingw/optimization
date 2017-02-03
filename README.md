@@ -8,6 +8,7 @@
 2. Minimize parser blocking JS
   - Add async
 3. Resize Images using Grunt
+4. Add Webfonts
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
