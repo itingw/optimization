@@ -7,14 +7,14 @@ module.exports = function(grunt) {
           engine: 'gm',
           sizes: [{
             width: 100,
-            quality: 50
+            quality: 35
           }]
         },
         files: [{
           expand: true,
           src: ['*.{gif,jpg,png}'],
-          cwd: 'views/images-src/',
-          dest: 'views/images/'
+          cwd: 'img_src/',
+          dest: 'img/'
         }]
       }
     },
