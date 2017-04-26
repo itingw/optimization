@@ -1,7 +1,7 @@
 ## Website Performance Optimization portfolio project
 This purpose of this project is to optimize the given portfolio page for speed.
 
-####Access the Project
+#### Access the Project
 Access the page here: https://itingw.github.io/optimization/
 
 -OR-
@@ -10,7 +10,7 @@ Access the page here: https://itingw.github.io/optimization/
 2. Unzip the repository
 3. Open "index.html" in any browser
 
-####Part 1: Optimize PageSpeed Insights score for index.html
+#### Part 1: Optimize PageSpeed Insights score for index.html
 
 1. Minimize render blocking
   - Media Queries
@@ -22,7 +22,7 @@ Access the page here: https://itingw.github.io/optimization/
 5. Move print CSS and scripts to end of the body
 
 
-####Part 2: Optimize Frames per Second in pizza.html
+#### Part 2: Optimize Frames per Second in pizza.html
 
 1. Optimize updatePositions()
   - Move variable out of loop to avoid accessing document
